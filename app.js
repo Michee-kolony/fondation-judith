@@ -23,4 +23,5 @@ app.use('/publication', routePublication);
 
 //Route message
 app.use('/message', routeMessage);
+
 module.exports = app;
