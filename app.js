@@ -12,8 +12,8 @@ mongoose.connect('mongodb+srv://kwete:fondationkwete@fondation-kwete.djh9wsl.mon
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
-    .then(() => console.log('Connexion à MongoDB réussie !'))
-    .catch(err => console.error('Connexion à MongoDB échouée !', err));
+    .then(() => console.log('Connexion à MongoDB réussie!!!'))
+    .catch(err => console.error('Connexion à MongoDB échouée !!!', err));
 
 app.use(bodyParser.json());
 app.use(express.json());
